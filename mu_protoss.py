@@ -988,7 +988,7 @@ def main():
         Human(Race.Zerg),
         Bot(Race.Protoss, Mutile_attack_bot())],
         realtime=True,save_replay_as="test.SC2Replay")
-        #对战人类的时候无法存录像？
+        
     """
 if __name__ == '__main__':
     main()
